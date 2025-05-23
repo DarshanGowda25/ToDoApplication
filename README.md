@@ -79,7 +79,7 @@ The LLM is only called when the "Summarize" button is clicked → optimized toke
 
 
 
-### screent shots
+### Screent shots
 ![Screenshot 2025-05-23 121149](https://github.com/user-attachments/assets/32adab3b-70a5-43fa-8775-42895fde5654)
 ![Screenshot 2025-05-23 121140](https://github.com/user-attachments/assets/417576e2-67a7-4093-95f5-8bd52a750f36)
 ![Screenshot 2025-05-23 121131](https://github.com/user-attachments/assets/f79ad933-e7ed-4b32-8089-58656abc512f)
