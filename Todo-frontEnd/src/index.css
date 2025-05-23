@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@tailwind utilities;
+@theme{
+
+   --color-eliteGold: rgba(212, 175, 55, 0.696);
+   --color-eliteBlack: rgb(26,26,26);
+}
+
+
+
+*{
+
+  box-sizing: border-box;
+  font-family: "Outfit", serif;
+ }
+
+ *{
+ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
