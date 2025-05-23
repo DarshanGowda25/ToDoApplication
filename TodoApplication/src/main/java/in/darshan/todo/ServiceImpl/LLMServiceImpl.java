@@ -15,10 +15,11 @@ import in.darshan.todo.Services.LLMServices;
 @Service
 public class LLMServiceImpl implements LLMServices {
 
-    private final String apiKey ="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";
+    @Value("${openrouter.api.key}")
+    private String apiKey;
 
-
-    private String model = "gpt-3.5-turbo-instruct";
+    @Value("${openrouter.model}")
+    private String model;
 
     private final RestTemplate restTemplate = new RestTemplate();
 
