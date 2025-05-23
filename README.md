@@ -22,28 +22,7 @@ An AI-powered full-stack application that helps summarize pending todos in a mot
 - Maven
 - PostgreSQL installed and running
 
-```properties
-# --- Database ---
-spring.datasource.url=jdbc:postgresql://localhost:5432/DB
-spring.datasource.username=Your_DB_USERNAME
-spring.datasource.password=Your_DB_PASSWORD
 
-# --- Hibernate ---
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-
-# --- OpenRouter LLM ---
-openrouter.api.key=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
-openrouter.model=gpt-3.5-turbo-instruct
-
-# --- Slack ---
-slack.webhook.url=https://hooks.slack.com/services/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
-
-
-
-
-```
 #### cd backend
 ./mvnw spring-boot:run
 
