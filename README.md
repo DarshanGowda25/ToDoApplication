@@ -53,18 +53,31 @@ slack.webhook.url=https://hooks.slack.com/services/T08TNSYB0RY/B08TD7Z7V9R/rYFHf
 
 ### Slack Integration
 
-- 1.Go to your Slack Workspace > Apps > Incoming Webhooks
-- 2.Create a new webhook, select a channel
-- 3.Copy the webhook URL
-- 4.Paste it into your application.properties
+- Go to your Slack Workspace > Apps > Incoming Webhooks
+- Create a new webhook, select a channel
+- Copy the webhook URL
+- Paste it into your application.properties
 
 ###  LLM Setup with OpenRouter
 
-1.Create a free account at https://openrouter.ai
-2.Go to API Keys and generate one
-3.Add the following in application.properties
+- Create a free account at https://openrouter.ai
+- Go to API Keys and generate one
+- Add the following in application.properties
+
+### Design & Architecture Decisions
+
+#### Modular Structure
+
+- backend/: Handles business logic, API, Slack, LLM
+- frontend/: Handles UI, state, React Query, API integration
+
+#### Lazy LLM Call
 
 The LLM is only called when the "Summarize" button is clicked → optimized token usage and cost efficiency
+
+
+
+
 
 ### screent shots
 ![Screenshot 2025-05-23 121149](https://github.com/user-attachments/assets/32adab3b-70a5-43fa-8775-42895fde5654)
