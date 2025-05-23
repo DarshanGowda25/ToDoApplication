@@ -64,9 +64,9 @@ slack.webhook.url=https://hooks.slack.com/services/T08TNSYB0RY/B08TD7Z7V9R/rYFHf
 - Go to API Keys and generate one
 - Add the following in application.properties
 
-### Design & Architecture Decisions
+### 🧱 Design & Architecture Decisions
 
-#### Modular Structure
+#### 📁 Modular Structure
 
 - backend/: Handles business logic, API, Slack, LLM
 - frontend/: Handles UI, state, React Query, API integration
