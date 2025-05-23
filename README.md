@@ -34,11 +34,12 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 # --- OpenRouter LLM ---
-openrouter.api.key=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
+openrouter.api.key=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
 openrouter.model=gpt-3.5-turbo-instruct
 
 # --- Slack ---
-slack.webhook.url=https://hooks.slack.com/services/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
+slack.webhook.url=https://hooks.slack.com/services/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
+
 
 
 
