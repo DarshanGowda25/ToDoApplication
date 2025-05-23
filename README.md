@@ -53,10 +53,10 @@ slack.webhook.url=https://hooks.slack.com/services/T08TNSYB0RY/B08TD7Z7V9R/rYFHf
 
 ### Slack Integration
 
-1.Go to your Slack Workspace > Apps > Incoming Webhooks
-2.Create a new webhook, select a channel
-3.Copy the webhook URL
-4.Paste it into your application.properties
+- 1.Go to your Slack Workspace > Apps > Incoming Webhooks
+- 2.Create a new webhook, select a channel
+- 3.Copy the webhook URL
+- 4.Paste it into your application.properties
 
 ###  LLM Setup with OpenRouter
 
