@@ -46,9 +46,9 @@ cd backend
 ```
 
 ### 🔧 Front End
-cd frontend
-npm install
-npm run dev
+-cd frontend
+-npm install
+-npm run dev
 
 ### Slack Integration
 
