@@ -65,3 +65,6 @@ npm run dev
 
 The LLM is only called when the "Summarize" button is clicked → optimized token usage and cost efficiency
 
+### screent shots
+![Screenshot 2025-05-23 121149](https://github.com/user-attachments/assets/32adab3b-70a5-43fa-8775-42895fde5654)
+
