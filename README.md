@@ -25,8 +25,8 @@ An AI-powered full-stack application that helps summarize pending todos in a mot
 ```properties
 # --- Database ---
 spring.datasource.url=jdbc:postgresql://localhost:5432/DB
-spring.datasource.username=DB_USERNAME
-spring.datasource.password=_DB_PASSWORD
+spring.datasource.username=Your_DB_USERNAME
+spring.datasource.password=Your_DB_PASSWORD
 
 # --- Hibernate ---
 spring.jpa.hibernate.ddl-auto=update
