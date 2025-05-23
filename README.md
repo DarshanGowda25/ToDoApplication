@@ -41,14 +41,15 @@ openrouter.model=gpt-3.5-turbo-instruct
 slack.webhook.url=https://hooks.slack.com/services/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
 
 
-cd backend
-./mvnw spring-boot:run
-```
 
-### 🔧 Front End
--cd frontend
--npm install
--npm run dev
+```
+#### cd backend
+./mvnw spring-boot:run
+
+#### 🔧 Front End
+- cd frontend
+- npm install
+- npm run dev
 
 ### Slack Integration
 
