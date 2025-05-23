@@ -9,8 +9,8 @@ import in.darshan.todo.Services.SlacKServices;
 @Service
 public class SlackServiceImpl implements SlacKServices{
 	
-	private final String slackWebhookUrl = "https://hooks.slack.com/services/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";
-
+            @Value("${slack.webhook.url}")
+	    private String slackWebhookUrl;
 
 	    private final RestTemplate restTemplate;
 
